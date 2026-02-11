@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<insurer_response>
+    <insurer>Aegon</insurer>
+    <api_version>1.5</api_version>
+    <generated_at>2024-06-15T10:30:00Z</generated_at>
+    <products>
+        <product>
+            <code>AEG-LIFE-001</code>
+            <name>Levensverzekering Standaard</name>
+            <type>life</type>
+            <coverage>100000</coverage>
+            <premium>15.75</premium>
+            <deductible>0</deductible>
+            <status>active</status>
+            <description>Overlijdensrisicoverzekering met vaste looptijd</description>
+        </product>
+        <product>
+            <code>AEG-LIFE-002</code>
+            <name>Levensverzekering Premium</name>
+            <type>life</type>
+            <coverage>300000</coverage>
+            <premium>45.00</premium>
+            <deductible>0</deductible>
+            <status>active</status>
+            <description>Uitgebreide levensverzekering met opbouwwaarde</description>
+        </product>
+        <product>
+            <code>AEG-HEALTH-001</code>
+            <name>Zorgverzekering Basis</name>
+            <type>health</type>
+            <coverage>0</coverage>
+            <premium>128.50</premium>
+            <deductible>385</deductible>
+            <status>active</status>
+            <description>Basiszorgverzekering conform overheid</description>
+        </product>
+        <product>
+            <code>AEG-REIS-001</code>
+            <name>Reisverzekering Wereld</name>
+            <type>travel</type>
+            <coverage>50000</coverage>
+            <premium>6.50</premium>
+            <deductible>50</deductible>
+            <status>active</status>
+            <description>Wereldwijde reisverzekering voor vakantie en zakenreizen</description>
+        </product>
+    </products>
+</insurer_response>

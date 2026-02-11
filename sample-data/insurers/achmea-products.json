@@ -1,0 +1,47 @@
+[
+  {
+    "product_code": "ACH-WOZ-001",
+    "name": "Woonhuis Verzekering Basis",
+    "type": "property",
+    "coverage_amount": 250000,
+    "base_premium": 25.50,
+    "deductible": 250,
+    "description": "Basisverzekering voor uw woning tegen brand, storm en inbraak"
+  },
+  {
+    "product_code": "ACH-WOZ-002",
+    "name": "Woonhuis Verzekering Plus",
+    "type": "property",
+    "coverage_amount": 500000,
+    "base_premium": 42.75,
+    "deductible": 150,
+    "description": "Uitgebreide woonverzekering inclusief glasschade en leidingwater"
+  },
+  {
+    "product_code": "ACH-INB-001",
+    "name": "Inboedelverzekering Standaard",
+    "type": "property",
+    "coverage_amount": 75000,
+    "base_premium": 15.80,
+    "deductible": 100,
+    "description": "Verzekering voor uw huisraad en persoonlijke bezittingen"
+  },
+  {
+    "product_code": "ACH-AUTO-001",
+    "name": "Autoverzekering WA",
+    "type": "auto",
+    "coverage_amount": 2500000,
+    "base_premium": 35.00,
+    "deductible": 0,
+    "description": "Wettelijke aansprakelijkheid voor uw auto"
+  },
+  {
+    "product_code": "ACH-AUTO-002",
+    "name": "Autoverzekering AllRisk",
+    "type": "auto",
+    "coverage_amount": 2500000,
+    "base_premium": 85.00,
+    "deductible": 500,
+    "description": "Volledige cascodekking voor uw voertuig"
+  }
+]
