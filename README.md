@@ -2,9 +2,15 @@
 
 A full-stack multi-insurer integration platform that aggregates and manages insurance products from multiple Dutch insurers with different data formats (JSON/XML/Excel), provides real-time premium calculation, and interactive analytics.
 
-## Project Context
+![InsuranceHub Dashboard](screenshots/01%20dashboard.png)
 
-This project was built as a technical portfolio piece for an Application Administrator role at a Dutch insurance intermediary. It demonstrates the ability to work with the complex technical landscape of insurance platforms that manage products from 40+ insurers.
+| Feature | Screenshot |
+|---------|------------|
+| **Insurers** — Monitor connections, trigger syncs, view health status | ![Insurers](screenshots/02%20insurers.png) |
+| **Products** — Browse catalog across all insurers with filters | ![Products](screenshots/03%20products.png) |
+| **Import** — Drag-and-drop import from JSON, XML, or Excel | ![Import](screenshots/04%20import.png) |
+| **Create Policy** — Multi-step form with real-time premium calculation | ![Create Policy](screenshots/05%20create%20polis.png) |
+| **Reports** — Generate and export reports to Excel | ![Reports](screenshots/03%20reports.png) |
 
 ### Skills Demonstrated
 
@@ -247,15 +253,6 @@ cd backend
 python -m pytest tests/ -v
 ```
 
-## Future Improvements
-
-- User authentication and role-based access control
-- WebSocket-based real-time sync updates
-- PDF report generation
-- Advanced search with Elasticsearch
-- CI/CD pipeline configuration
-- Performance monitoring dashboard
-- Automated test suite expansion
 
 ## License
 
