@@ -1,3 +1,4 @@
+/// Dashboard component for InsuranceHub - displays KPIs, charts, and recent activity.
 import React, { useState, useEffect } from 'react';
 import {
   PieChart, Pie, Cell, LineChart, Line, XAxis, YAxis, CartesianGrid,

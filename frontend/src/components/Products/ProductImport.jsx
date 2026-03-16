@@ -1,3 +1,5 @@
+/// ProductImport component - allows users to import products via JSON, XML, or Excel files with a 
+// step-by-step interface and result feedback.
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, FileJson, FileSpreadsheet, FileCode, CheckCircle, XCircle, Loader2 } from 'lucide-react';

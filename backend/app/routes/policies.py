@@ -99,7 +99,7 @@ def create_policy():
         new_num = 1
     policy_number = f'POL-{year}-{new_num:05d}'
 
-    # Calculate premium (use provided or base)
+    # Calculate premium (use provided or base) 
     premium = data.get('premium_amount', float(product.base_premium))
 
     try:
@@ -152,7 +152,7 @@ def calculate_premium():
     total_factor = 1.0
     rules = product.rules_json or {}
 
-    # Age factor
+    # Age factor rules (example: "age_factor": {"18-25": 1.2, "26-40": 1.0, "41-60": 0.9, "61+": 1.3})
     if data.get('date_of_birth') and 'age_factor' in rules:
         birth = datetime.strptime(data['date_of_birth'], '%Y-%m-%d')
         age = (datetime.now() - birth).days // 365

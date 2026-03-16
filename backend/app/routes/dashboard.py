@@ -12,7 +12,7 @@ dashboard_bp = Blueprint('dashboard', __name__)
 def get_dashboard_stats():
     """Return KPI data and overview statistics for the dashboard."""
 
-    # Core KPIs
+    # Core KPIs for the dashboard
     total_policies = Policy.query.filter(Policy.status == 'active').count()
     active_claims = Claim.query.filter(
         Claim.status.in_(['submitted', 'under_review'])
@@ -49,6 +49,7 @@ def get_dashboard_stats():
         })
 
     # Policies by product type
+    # Note: This assumes Product has a 'product_type' field. Adjust as needed.
     policies_by_type = db.session.query(
         Product.product_type,
         func.count(Policy.id).label('count')
@@ -58,6 +59,7 @@ def get_dashboard_stats():
      .all()
 
     # Claims by status
+    # Note: This assumes Claim has a 'status' field. Adjust as needed.
     claims_by_status = db.session.query(
         Claim.status,
         func.count(Claim.id).label('count')
